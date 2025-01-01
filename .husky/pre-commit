@@ -1,1 +1,1 @@
-npm run format:staged
+yarn format:staged
