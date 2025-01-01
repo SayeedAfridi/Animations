@@ -29,6 +29,12 @@ export const fv = (fontSize: number, standardScreenHeight = 680): number => {
   return Math.round(heightPercent);
 };
 
-export const getFontFamily = (variant: FontWeight = FontWeight.Regular) => {
+export const getFontFamily = (
+  variant: FontWeight = FontWeight.Regular,
+  italic = false,
+) => {
+  if (italic && variant !== FontWeight.Italic) {
+    return `${FONT_FAMILY}-${variant}Italic`;
+  }
   return `${FONT_FAMILY}-${variant}`;
 };
