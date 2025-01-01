@@ -22,7 +22,8 @@
         "noUselessUndefinedInitialization": "warn",
         "noVoid": "warn",
         "noWith": "warn",
-        "useLiteralKeys": "warn"
+        "useLiteralKeys": "warn",
+        "noBannedTypes": "off"
       },
       "correctness": {
         "noConstAssign": "error",
