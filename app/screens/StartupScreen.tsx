@@ -1,7 +1,7 @@
 import type React from 'react';
 
 import { StartupFeatures } from '@features/startup/StartupFeatures';
-import type { RootNavigationProps } from '@lib/navigation/types';
+import type { RootNavigationProps } from '@navigation/types';
 
 export interface StartupScreenProps extends RootNavigationProps<'Startup'> {}
 

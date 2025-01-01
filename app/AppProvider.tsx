@@ -3,7 +3,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { App } from '@app/App';
-import { RootNavigationContainer } from '@lib/navigation/RootNavigationContainer';
+import { RootNavigationContainer } from '@navigation/RootNavigationContainer';
 
 export type AppProviderProps = {};
 

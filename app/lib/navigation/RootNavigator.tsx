@@ -2,8 +2,8 @@ import type React from 'react';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { stackOptions } from '@lib/navigation/options';
-import type { RootRoutes } from '@lib/navigation/types';
+import { stackOptions } from '@navigation/options';
+import type { RootRoutes } from '@navigation/types';
 import { HomeScreen } from '@screens/HomeScreen';
 import { StartupScreen } from '@screens/StartupScreen';
 

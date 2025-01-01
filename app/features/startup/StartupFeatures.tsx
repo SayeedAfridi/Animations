@@ -1,7 +1,7 @@
 import type React from 'react';
 import { View } from 'react-native';
 
-import type { RootNavigationProps } from '@lib/navigation/types';
+import type { RootNavigationProps } from '@navigation/types';
 
 export interface StartupFeaturesProps extends RootNavigationProps<'Startup'> {}
 

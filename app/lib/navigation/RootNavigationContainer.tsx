@@ -5,7 +5,7 @@ import {
   type NavigationContainerProps,
 } from '@react-navigation/native';
 
-import { rootNavRef } from '@lib/navigation/navigation';
+import { rootNavRef } from '@navigation/navigation';
 
 export interface RootNavigationContainerProps
   extends NavigationContainerProps {}

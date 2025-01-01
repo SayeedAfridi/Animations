@@ -1,7 +1,7 @@
 import type React from 'react';
 
 import { HomeFeatures } from '@features/home/HomeFeatures';
-import type { RootNavigationProps } from '@lib/navigation/types';
+import type { RootNavigationProps } from '@navigation/types';
 
 export interface HomeScreenProps extends RootNavigationProps<'Home'> {}
 

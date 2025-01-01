@@ -49,7 +49,8 @@
         "useCollapsedElseIf": "off",
         "useConsistentBuiltinInstantiation": "warn",
         "useDefaultSwitchClause": "off",
-        "useSingleVarDeclarator": "off"
+        "useSingleVarDeclarator": "off",
+        "noNonNullAssertion": "off"
       },
       "suspicious": {
         "noCatchAssign": "warn",
@@ -70,7 +71,8 @@
         "noSelfCompare": "warn",
         "noShadowRestrictedNames": "warn",
         "noSparseArray": "warn",
-        "useValidTypeof": "warn"
+        "useValidTypeof": "warn",
+        "noExplicitAny": "off"
       }
     }
   },
