@@ -1,4 +1,4 @@
-package com.animations
+package dev.afridi.animations
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

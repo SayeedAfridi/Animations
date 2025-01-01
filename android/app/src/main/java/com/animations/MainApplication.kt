@@ -1,4 +1,4 @@
-package com.animations
+package dev.afridi.animations
 
 import android.app.Application
 import com.facebook.react.PackageList
