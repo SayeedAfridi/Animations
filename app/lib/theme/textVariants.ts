@@ -17,10 +17,10 @@ export const textVariants = {
     color: 'black87',
     fontFamily: getFontFamily(FontWeight.Bold),
   },
-  'body-italic': {
+  'body-bold-italic': {
     fontSize: 18,
     color: 'black87',
-    fontFamily: getFontFamily(FontWeight.Italic),
+    fontFamily: getFontFamily(FontWeight.Bold, true),
   },
   'title-reg': {
     fontSize: 24,
