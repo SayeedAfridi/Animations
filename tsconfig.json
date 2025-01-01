@@ -3,12 +3,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["./app/*"],
       "@assets/*": ["./app/assets/*"],
       "@lib/*": ["./app/lib/*"],
       "@features/*": ["./app/features/*"],
       "@components/*": ["./app/components/*"],
-      "@constants/*": ["./app/constants/*"]
+      "@constants/*": ["./app/constants/*"],
+      "@screens/*": ["./app/screens/*"],
+      "@app/*": ["./app/*"]
     }
   }
 }

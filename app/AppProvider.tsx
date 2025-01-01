@@ -1,8 +1,20 @@
-import { App } from '@app/App';
 import type React from 'react';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+import { App } from '@app/App';
+import { RootNavigationContainer } from '@lib/navigation/RootNavigationContainer';
 
 export type AppProviderProps = {};
 
 export const AppProvider: React.FC<AppProviderProps> = () => {
-  return <App />;
+  return (
+    <GestureHandlerRootView>
+      <SafeAreaProvider>
+        <RootNavigationContainer>
+          <App />
+        </RootNavigationContainer>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
+  );
 };
