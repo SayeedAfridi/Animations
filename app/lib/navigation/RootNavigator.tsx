@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import { stackOptions } from '@navigation/options';
 import type { RootRoutes } from '@navigation/types';
+import { AnimatedNumpadScreen } from '@screens/AnimatedNumpadScreen';
 import { HomeScreen } from '@screens/HomeScreen';
 import { StartupScreen } from '@screens/StartupScreen';
 
@@ -16,6 +17,7 @@ export const RootNavigator: React.FC<RootNavigatorProps> = () => {
     <Navigator initialRouteName='Startup' screenOptions={stackOptions}>
       <Screen name='Startup' component={StartupScreen} />
       <Screen name='Home' component={HomeScreen} />
+      <Screen name='AnimatedNumpad' component={AnimatedNumpadScreen} />
     </Navigator>
   );
 };

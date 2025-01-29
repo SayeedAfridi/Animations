@@ -9,4 +9,5 @@ export interface RootNavigationProps<RouteName extends keyof RootRoutes> {
 export type RootRoutes = {
   Home: undefined;
   Startup: undefined;
+  AnimatedNumpad: undefined;
 };
